@@ -66,6 +66,8 @@ public class gradecalc {
         if(grade.equals("INVALID INPUT!!"))
             System.out.println("Invalid input Please enter the marks again");
         else
+            System.out.println("Total Marks="+sum);
+            System.out.println("Percentage="+average);
             System.out.println("GRADE="+grade);
     }
 }
